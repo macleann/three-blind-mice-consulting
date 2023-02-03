@@ -1,0 +1,192 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2019
+        },
+        {
+            "id": 2,
+            "model": "Dell XPS 13",
+            "year": 2019
+        },
+        {
+            "id": 3,
+            "model": "Macbook Air",
+            "year": 2020
+        },
+        {
+            "id": 4,
+            "model": "Microsoft Surface Laptop",
+            "year": 2017
+        },
+        {
+            "id": 5,
+            "model": "HP Spectre x360",
+            "year": 2019
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Turanga",
+            "lastName": "Leela",
+            "age": 31,
+            "computerId": 1,
+            "departmentId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Bender",
+            "lastName": "Rodríguez",
+            "age": 40,
+            "computerId": 2,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Phillip",
+            "lastName": "Fry",
+            "age": 32,
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "firstName": "John",
+            "lastName": "Zoidberg",
+            "age": 32,
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Hubert",
+            "lastName": "Farnsworth",
+            "age": 160,
+            "computerId": 5,
+            "departmentId": 5,
+            "locationId": 3
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "IT"
+        },
+        {
+            "id": 2,
+            "name": "Marketing"
+        },
+        {
+            "id": 3,
+            "name": "Sales"
+        },
+        {
+            "id": 4,
+            "name": "HR"
+        },
+        {
+            "id": 5,
+            "name": "R&D"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "940 E Paces Ferry Rd NE",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "zip": "30326"
+        },
+        {
+            "id": 2,
+            "address": "1415 Donelson Pike",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "zip": "37217"
+        },
+        {
+            "id": 3,
+            "address": "707 Union Ave",
+            "city": "Memphis",
+            "state": "Tennessee",
+            "zip": "38103"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Mom's Friendly Robot Company"
+        },
+        {
+            "id": 2,
+            "name": "The Donbot and the Robot Mafia"
+        },
+        {
+            "id": 3,
+            "name": "The Head Museum"
+        },
+        {
+            "id": 4,
+            "name": "The Central Bureaucracy"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 2,
+            "employeeId": 5
+        },
+        {
+            "id": 10,
+            "customerId": 3,
+            "employeeId": 5
+        }
+        
+    ]
+}
